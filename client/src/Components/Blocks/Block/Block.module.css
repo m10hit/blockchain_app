@@ -1,0 +1,21 @@
+.block {
+  width: 900px;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+}
+
+.block > * {
+  margin: 20px auto;
+}
+
+.heading {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.nonce {
+  display: inline-block;
+  float: right;
+}
